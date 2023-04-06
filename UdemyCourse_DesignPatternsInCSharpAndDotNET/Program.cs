@@ -15,7 +15,9 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //OpenClosedPrinciple.Execute();
             //LiskovSubstitutionPrinciple.Execute();
             //DependencyInversionPrinciple.Execute();
-            HtmlElementDemo.Execute();
+            //HtmlElementBuilderDemo.Execute();
+            //BuilderInheritance.Execute();
+            BuilderExercise.Execute();
             Console.ReadKey();
         }
     }

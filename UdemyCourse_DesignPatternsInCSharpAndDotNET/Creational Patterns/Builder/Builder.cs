@@ -86,7 +86,7 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.Creational_Patterns.Builde
         HtmlElement root = new HtmlElement();
     }
 
-    public class HtmlElementDemo
+    public class HtmlElementBuilderDemo
     {
        public static void Execute()
         {
