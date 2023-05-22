@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.Creational_Patterns._2Factories.FactoryExercise
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._3Factories.FactoryExercise
 {
     public class Person
     {

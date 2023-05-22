@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.Creational_Patterns.Builder
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._2Builder
 {
     
     public class Person

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.Creational_Patterns._2Factories.More.FactoryPattern
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._3Factories.More.FactoryPattern
 {
     public interface Shape
     {

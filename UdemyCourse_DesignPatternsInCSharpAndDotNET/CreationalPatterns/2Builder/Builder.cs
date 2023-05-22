@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.Creational_Patterns.Builder
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._2Builder
 {
     class HtmlElement
     {
