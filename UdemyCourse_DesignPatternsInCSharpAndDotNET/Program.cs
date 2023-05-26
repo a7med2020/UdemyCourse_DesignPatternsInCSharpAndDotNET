@@ -8,6 +8,12 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.TheSOLIDDesignPrinciples;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._4Prototype;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._4Prototype.ICloneableIsBad;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._4Prototype.CopyConstructors;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.SingletonImplementation;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.Monostate;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.PerThread;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.SingletonInDependencyInjection;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.SingletonExercise;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -25,8 +31,13 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //BuilderExercise.Execute();
             //BulkReplacement.Execute();
             //FactoryExercise.Execute();
-            ICloneableIsBad.Execute();
-            CopyConstructors.Execute();
+            //ICloneableIsBad.Execute();
+            //CopyConstructors.Execute();
+            //SingletonImplementation.Execute();
+            //SingletonInDependencyInjection.Execute();
+            //Monostate.Execute();
+            //PerThread.Execute();
+            SingletonExercise.Execute();
             Console.ReadKey();
         }
     }

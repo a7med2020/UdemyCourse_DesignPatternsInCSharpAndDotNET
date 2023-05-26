@@ -1,0 +1,3 @@
+﻿-- Reflection  (like in AbstractFactory.cs)
+--Autofac in SingletonInDependencyInjection
+-- UnitTest (in SingletonDatabase.cs)
