@@ -14,6 +14,10 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.PerThread;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.SingletonInDependencyInjection;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.CreationalPatterns._5Singleton.SingletonExercise;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.Vector_RasterDemo;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.AdapterCaching;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.GenericValueAdapter;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.AdapterInDependencyInjections;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -37,7 +41,11 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //SingletonInDependencyInjection.Execute();
             //Monostate.Execute();
             //PerThread.Execute();
-            SingletonExercise.Execute();
+            //SingletonExercise.Execute();
+            //Vector_RasterDemo.Execute();
+            //AdapterCaching.Execute();
+            //GenericValueAdapter.Execute();
+            AdapterInDependencyInjection.Execute();
             Console.ReadKey();
         }
     }
