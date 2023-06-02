@@ -18,6 +18,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.V
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.AdapterCaching;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.GenericValueAdapter;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.AdapterInDependencyInjections;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._7Bridge.BridgeExercise;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -45,7 +46,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //Vector_RasterDemo.Execute();
             //AdapterCaching.Execute();
             //GenericValueAdapter.Execute();
-            AdapterInDependencyInjection.Execute();
+            //AdapterInDependencyInjection.Execute();
+            BridgeExercise.Execute();
             Console.ReadKey();
         }
     }
