@@ -24,6 +24,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._8Composite
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.CustomStringBuilder;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.AdapterDecorator;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.DynamicDecoratorComposition;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.More.ShapeDecorator;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -57,7 +58,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //ChatGPTExample.Execute();
             //CustomStringBuilder.Execute();
             //AdapterDecorator.Execute();
-            DynamicDecoratorComposition.Execute();
+            //DynamicDecoratorComposition.Execute();
+            ShapeDecoratorDemo.Execute();
             Console.ReadKey();
         }
     }
