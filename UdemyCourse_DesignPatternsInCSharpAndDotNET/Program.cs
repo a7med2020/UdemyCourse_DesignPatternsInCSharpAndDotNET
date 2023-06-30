@@ -25,6 +25,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.AdapterDecorator;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.DynamicDecoratorComposition;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._9Decorator.More.ShapeDecorator;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._10Facade.FacadeExercise;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -59,7 +60,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //CustomStringBuilder.Execute();
             //AdapterDecorator.Execute();
             //DynamicDecoratorComposition.Execute();
-            ShapeDecoratorDemo.Execute();
+            //ShapeDecoratorDemo.Execute();
+            
             Console.ReadKey();
         }
     }
