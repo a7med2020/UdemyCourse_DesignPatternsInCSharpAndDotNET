@@ -19,6 +19,8 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.A
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.GenericValueAdapter;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._6Adapter.AdapterInDependencyInjections;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._7Bridge.BridgeExercise;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._8Composite.GeometricShapes;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._8Composite.More.CompositePatternExample;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -47,7 +49,9 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //AdapterCaching.Execute();
             //GenericValueAdapter.Execute();
             //AdapterInDependencyInjection.Execute();
-            BridgeExercise.Execute();
+            //BridgeExercise.Execute();
+            //GeometricShapes.Execute();
+            ChatGPTExample.Execute();
             Console.ReadKey();
         }
     }
