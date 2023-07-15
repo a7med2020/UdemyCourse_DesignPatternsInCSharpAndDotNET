@@ -1,3 +1,14 @@
 ﻿-- Reflection  (like in AbstractFactory.cs)
 --Autofac in SingletonInDependencyInjection
 -- UnitTest (in SingletonDatabase.cs)
+
+--------------------------------------------
+-- Proxy
+-- lesson ValueProxy => override operator work (+,-,*,/)
+-- Lesson Composite Proxy: SoA/AoS => In computing, an array of structures (AoS), structure of arrays (SoA) or array of structures of arrays (AoSoA) are contrasting ways to arrange a sequence of records in memory
+Structure of arrays (SoA) is a layout separating elements of a record (or 'struct' in the C programming language) into one parallel array per field.
+-- Lesson DynamicProxyforLogging => Create DynamicObject / Create log funcationality without Editting Exiting code
+-- Lesson ViewModel => a good and new way of creating a ViewModel
+-- Lesson  Bit Fragging => has the idea of mathematical operators precedence
+-------------------------------------------
+
