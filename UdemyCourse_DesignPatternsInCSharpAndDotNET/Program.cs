@@ -29,6 +29,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._10Facade.F
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweight.RepeatingUserNames;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweight.TextFormatting;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweight.FlyweightExercise;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.MethodChain;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -66,7 +67,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //ShapeDecoratorDemo.Execute();
             //RepeatingUserNames.Execute();
             //TextFormatting.Execute();
-            FlyweightExercise.Execute();
+            //FlyweightExercise.Execute();
+            MethodChain.Execute();
             Console.ReadKey();
         }
     }
