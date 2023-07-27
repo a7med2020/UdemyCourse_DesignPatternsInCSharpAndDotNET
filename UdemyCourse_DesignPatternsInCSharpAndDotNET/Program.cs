@@ -30,6 +30,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweigh
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweight.TextFormatting;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweight.FlyweightExercise;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.MethodChain;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.More;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -68,7 +69,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //RepeatingUserNames.Execute();
             //TextFormatting.Execute();
             //FlyweightExercise.Execute();
-            MethodChain.Execute();
+            //MethodChain.Execute();
+            ChainPatternDemo.Execute();
             Console.ReadKey();
         }
     }

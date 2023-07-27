@@ -11,4 +11,10 @@ Structure of arrays (SoA) is a layout separating elements of a record (or 'struc
 -- Lesson ViewModel => a good and new way of creating a ViewModel
 -- Lesson  Bit Fragging => has the idea of mathematical operators precedence
 -------------------------------------------
-
+ChainOfResponsibility
+--- lesson Method Chain => Funtion that call itself from object of it's class passed to it (like linked list)
+--- lesson Abstract Logger => a Way of creating log functionality
+--------------------------------------
+command
+-- lessons about series of functions with ability to undo 
+--------------------------------------
