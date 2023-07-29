@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.Exercise
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.Exercise
 {
   namespace Coding.Exercise
   {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using static System.Console;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.BrokerChain
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.BrokerChain
 {
   // command query separation is being used here
 

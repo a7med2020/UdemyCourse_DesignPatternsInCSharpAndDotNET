@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using static System.Console;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._13ChainOfResponsibility.MethodChain
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.MethodChain
 {
     public class Creature
     {
