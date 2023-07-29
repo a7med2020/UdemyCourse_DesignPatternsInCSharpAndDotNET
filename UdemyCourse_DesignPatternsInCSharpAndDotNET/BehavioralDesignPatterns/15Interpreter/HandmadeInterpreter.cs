@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using static System.Console;
 
-namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._15Interpreter.HandmadeInterpreter
+namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._15Interpreter.HandmadeInterpreter
 {
   public interface IElement
   {
