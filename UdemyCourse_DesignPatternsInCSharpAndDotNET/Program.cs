@@ -32,7 +32,9 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyweigh
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.MethodChain;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.More;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._15Interpreter.HandmadeInterpreter;
- 
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.More;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseMyAnswer;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -73,7 +75,9 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //FlyweightExercise.Execute();
             //MethodChain.Execute();
             //ChainPatternDemo.Execute();
-            HandmadeInterpreter.Execute();
+            //HandmadeInterpreter.Execute();
+            ExerciseAnswers.Execute();
+            ExerciseMyAnswer.Execute();
             Console.ReadKey();
         }
     }
