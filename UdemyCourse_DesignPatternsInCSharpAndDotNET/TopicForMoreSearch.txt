@@ -18,3 +18,10 @@ ChainOfResponsibility
 command
 -- lessons about series of functions with ability to undo 
 --------------------------------------
+Interpreter
+ use it to parsing text or math equation and then processing it, something like what the compiler do
+ ------------------------------------
+ Mediator
+ ---lesson Event Broker => a bunch of events interact together without reference each other
+
+ 

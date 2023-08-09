@@ -2,7 +2,8 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Autofac;
-using DotNetDesignPatternDemos.Annotations;
+//using DotNetDesignPatternDemos.Annotations;
+using JetBrains.Annotations;
 using MediatR;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.MediatrDemo
@@ -41,11 +42,11 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._
         .As<IMediator>()
         .InstancePerLifetimeScope(); // singleton
 
-      builder.Register<ServiceFactory>(context =>
-      {
-        var c = context.Resolve<IComponentContext>();
-        return t => c.Resolve(t);
-      });
+      //builder.Register<ServiceFactory>(context =>
+      //{
+      //  var c = context.Resolve<IComponentContext>();
+      //  return t => c.Resolve(t);
+      //});
 
       builder.RegisterAssemblyTypes(typeof(Demo).Assembly)
         .AsImplementedInterfaces();
