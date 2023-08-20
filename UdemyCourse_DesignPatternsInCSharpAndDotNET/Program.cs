@@ -33,8 +33,10 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13Ch
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._13ChainOfResponsibility.More;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._15Interpreter.HandmadeInterpreter;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.More;
-using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseMyAnswer;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._19NullObject.NullObject;
+ 
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -76,8 +78,11 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //MethodChain.Execute();
             //ChainPatternDemo.Execute();
             //HandmadeInterpreter.Execute();
-            ExerciseAnswers.Execute();
-            ExerciseMyAnswer.Execute();
+            //ExerciseAnswers.Execute();
+            //ExerciseMyAnswer.Execute();
+            //NullObject.Execute();
+            //BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
+            BehavioralDesignPatterns._19NullObject.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
             Console.ReadKey();
         }
     }
