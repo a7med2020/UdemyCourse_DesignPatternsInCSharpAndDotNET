@@ -23,5 +23,10 @@ Interpreter
  ------------------------------------
  Mediator
  ---lesson Event Broker => a bunch of events interact together without reference each other
-
- 
+ -------------------------------------
+ Memento
+ ----- Memento is about making Log history for an object
+ ------------------------------------
+ NullObject
+ ------ NullObject is about object default value if it is null
+ ----- lesson Null Object  => is using Dynamic Object topic
