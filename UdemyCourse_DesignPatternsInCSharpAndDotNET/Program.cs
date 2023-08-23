@@ -36,7 +36,7 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Me
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseMyAnswer;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._19NullObject.NullObject;
- 
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._20Observer.ObserverInterfaces;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -82,7 +82,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //ExerciseMyAnswer.Execute();
             //NullObject.Execute();
             //BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
-            BehavioralDesignPatterns._19NullObject.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
+            //BehavioralDesignPatterns._19NullObject.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
+            ObserverInterfaces.Execute();
             Console.ReadKey();
         }
     }
