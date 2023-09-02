@@ -63,7 +63,7 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyw
         //    {
         //        circle = new Circle(color);
         //        circleMap.put(color, circle);
-        //        System.out.println("Creating circle of color : " + color);
+        //        WriteLine("Creating circle of color : " + color);
         //    }
         //    return circle;
         //}
