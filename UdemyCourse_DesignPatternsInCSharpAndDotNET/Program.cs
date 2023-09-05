@@ -37,6 +37,8 @@ using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._17Medaitor.ExerciseMyAnswer;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._19NullObject.NullObject;
 using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._20Observer.ObserverInterfaces;
+using  UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._22Strategy.ExerciseMyAnswer;
+using UdemyCourse_DesignPatternsInCSharpAndDotNET.BehavioralDesignPatterns._22Strategy.ExerciseByAnotherWay;
 
 namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
 {
@@ -83,7 +85,13 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //NullObject.Execute();
             //BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
             //BehavioralDesignPatterns._19NullObject.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
-            ObserverInterfaces.Execute();
+            //ObserverInterfaces.Execute();
+            //OrdinaryDiscriminantStrategy ordinaryDiscriminantStrategy = new OrdinaryDiscriminantStrategy();
+            //RealDiscriminantStrategy realDiscriminantStrategy = new RealDiscriminantStrategy();
+            //QuadraticEquationSolver quadraticEquationSolver = new QuadraticEquationSolver(realDiscriminantStrategy);
+            //Console.WriteLine(quadraticEquationSolver.Solve(1, 2, 1));
+
+            ExerciseByAnotherWay.Exexuter();
             Console.ReadKey();
         }
     }
