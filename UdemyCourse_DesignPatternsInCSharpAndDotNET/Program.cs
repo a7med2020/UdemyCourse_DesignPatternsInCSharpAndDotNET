@@ -68,13 +68,13 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //GenericValueAdapter.Execute();
             //AdapterInDependencyInjection.Execute();
             //BridgeExercise.Execute();
-            //GeometricShapes.Execute();
+            // GeometricShapes.Execute();
             //ChatGPTExample.Execute();
             //CustomStringBuilder.Execute();
             //AdapterDecorator.Execute();
             //DynamicDecoratorComposition.Execute();
             //ShapeDecoratorDemo.Execute();
-            //RepeatingUserNames.Execute();
+             //RepeatingUserNames.Execute();
             //TextFormatting.Execute();
             //FlyweightExercise.Execute();
             //MethodChain.Execute();
@@ -83,7 +83,7 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET
             //ExerciseAnswers.Execute();
             //ExerciseMyAnswer.Execute();
             //NullObject.Execute();
-            //BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
+             //BehavioralDesignPatterns._17Medaitor.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
             //BehavioralDesignPatterns._19NullObject.ExerciseAnswers.Coding.Exercise.ExerciseAnswers.Execute();
             //ObserverInterfaces.Execute();
             //OrdinaryDiscriminantStrategy ordinaryDiscriminantStrategy = new OrdinaryDiscriminantStrategy();

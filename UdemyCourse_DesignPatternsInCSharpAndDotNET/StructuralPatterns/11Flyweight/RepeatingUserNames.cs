@@ -85,7 +85,7 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyw
         }
 
         //[Test]
-        public void TestUser2()
+        public IEnumerable<string> TestUser2()
         {
             var users = new List<User2>();
 
@@ -95,6 +95,8 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyw
             foreach (var firstName in firstNames)
                 foreach (var lastName in lastNames)
                     users.Add(new User2($"{firstName} {lastName}"));
+
+            return firstNames;
 
             //ForceGC();
 
@@ -111,7 +113,7 @@ namespace UdemyCourse_DesignPatternsInCSharpAndDotNET.StructuralPatterns._11Flyw
         public static void Execute()
         {
             Demo demo = new Demo();
-            demo.TestUser2();
+            WriteLine(Demo.RandomString());
         }
     }
 }
